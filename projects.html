@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <title>JasonRodriguezProjects</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="sidebarNavigation.css">
+  <link rel="stylesheet" href="styles.css">
+  <style type="text/css">
+    #header > .container {
+        max-width: none;
+    }
+    </style>
+</head>
+<body>
+    <script src="three.js"></script>
+    <script src="OrbitControls.js"></script>
+    <script src="GLTFLoader.js"></script>
+<!--Navigation-->    
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light sidebarNavigation" data-sidebarClass="navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <div id="wrapper">
+                    <div class="circle icon">
+                        <span class="line top"></span>
+                        <span class="line middle"></span>
+                        <span class="line bottom"></span>
+                    </div>
+                    </div>
+                    </span>                        
+        </button>
+        <a class="navbar-brand" href="index.html">Jason Rodriguez</a>
+        <p class="uxui">UX/UI + Development</p>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav ml-auto">
+            <li><a class="nav-item nav-link" href="index.html">Home</a></li>
+            <li><a class="nav-item nav-link" href="about.html">About</a></li>
+            <li><div class="current-projects">Projects</div></li>
+            <li><a class="nav-item nav-link" href="contact.html">Contact</a></li>
+        </ul>
+        </div>
+    </div>
+
+        
+</nav>
+
+<!--Avatar-->    
+<div class="col-sm-12 text-center col-md-12">
+    <img class="me" src="images/SVG/ProjectsIcon.svg">
+</div>
+
+<div class="jumbotron text-center">
+    <div class="container profile-container">
+        <div class="row">
+        </div>
+    </div>
+</div>
+
+<!--UX/UI Projects-->    
+<div class="container-fluid ProjectsHeader"><p class="Header">UX/UI</p>
+</div>
+    <div class="container-fluid ProjectList">
+        <div class="row">
+            <a href="https://jasonrodriguez.myportfolio.com/explore-austin" target="_blank">
+            <div class="col-md-4 XABox"
+                data-tilt
+                data-tilt-max="6"
+                data-tilt-speed="250"
+                data-tilt-reverse="true"
+                data-tilt-reset="true"
+                data-tilt-scale="1.04"
+                data-tilt-glare="true"
+                data-tilt-max-glare=".15">
+                <div class="XALogo">
+                    <img class="VectorModo" src="XALogo.svg">
+                </div>
+                </a>
+            </div>
+            <a href="https://jasonrodriguez.myportfolio.com/modo-yoga" target="_blank">
+            <div class="col-md-4 ModoBox"
+                data-tilt
+                data-tilt-max="6"
+                data-tilt-speed="250"
+                data-tilt-reverse="true"
+                data-tilt-reset="true"
+                data-tilt-scale="1.04"
+                data-tilt-glare="true"
+                data-tilt-max-glare=".15">
+                
+                <div class="ModoLogo">
+                    <video class="ModoVid" autoplay muted loop>
+                        <source src="video/ModoVid.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </a>
+            </div>
+            <a href="https://jasonrodriguez.myportfolio.com/four-paws-1" target="_blank">
+            <div class="col-md-4 FPBox"
+                data-tilt
+                data-tilt-max="6"
+                data-tilt-speed="250"
+                data-tilt-reverse="true"
+                data-tilt-reset="true"
+                data-tilt-scale="1.04"
+                data-tilt-glare="true"
+                data-tilt-max-glare=".13">
+                <div class="FPLogo">
+                    <img class="VectorModo" src="FPLogo.svg">
+                </div>
+            </a>
+            </div>
+        </div>
+    </div>
+
+<!--Development Projects-->    
+<div class="container-fluid ProjectsHeader"><p class="Header">Development</p>
+    <p class="ProjectSub">Three.js + OrbitControls</p>
+</div>
+    <div class="container-fluid ProjectList">
+        <div class="row">
+            <a href="https://jrod123.github.io/Tachikoma_OrbitControls/" target="_blank">
+                <div class="col-md-4 TachiBox"
+                    data-tilt
+                    data-tilt-max="6"
+                    data-tilt-speed="250"
+                    data-tilt-reverse="true"
+                    data-tilt-reset="true"
+                    data-tilt-scale="1.04"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare=".15">
+                    <div class="TachiLogo">
+                        <img class="VectorModo" src="TachiLogo.svg"> 
+                    </div>
+                </a>
+                </div>
+                <a href="https://jrod123.github.io/3DPikachu/" target="blank">
+                <div class="col-md-4 PicaBox"
+                    data-tilt
+                    data-tilt-max="6"
+                    data-tilt-speed="250"
+                    data-tilt-reverse="true"
+                    data-tilt-reset="true"
+                    data-tilt-scale="1.04"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare=".15">
+                    <div class="PicaLogo">
+                        <img class="VectorModo" src="PikaLogo.svg">   
+                    </div>
+                </a>
+                </div>
+                <a href="https://jrod123.github.io/Destroyer/" target="blank">
+                <div class="col-md-4 DestBox"
+                    data-tilt
+                    data-tilt-max="6"
+                    data-tilt-speed="250"
+                    data-tilt-reverse="true"
+                    data-tilt-reset="true"
+                    data-tilt-scale="1.04"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare=".15">
+                    <div class="DestLogo">
+                        <img class="VectorModo" src="DestLogo.svg">
+                    </div>
+                </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container-fluid ProjectsHeader">
+            <p class="ProjectSub">Tilt.js + CSS TranslateZ
+            <br>
+            & Animation</p>
+        </div>
+            <div class="container-fluid ProjectList">
+                <div class="row">
+                    <a href="https://jrod123.github.io/raiden/" target="_blank">
+                        <div class="col-md-6 RadBox"
+                            data-tilt
+                            data-tilt-max="6"
+                            data-tilt-speed="250"
+                            data-tilt-reverse="true"
+                            data-tilt-reset="true"
+                            data-tilt-scale="1.04"
+                            data-tilt-glare="true"
+                            data-tilt-max-glare=".15">
+                            <div class="TachiLogo">
+                                <img class="VectorModo" src="RadLogo.svg"> 
+                            </div>
+                        </a>
+                        </div>
+                        <a href="https://jrod123.github.io/2DTiltGraff/" target="blank">
+                        <div class="col-md-6 JORBox"
+                            data-tilt
+                            data-tilt-max="6"
+                            data-tilt-speed="250"
+                            data-tilt-reverse="true"
+                            data-tilt-reset="true"
+                            data-tilt-scale="1.04"
+                            data-tilt-glare="true"
+                            data-tilt-max-glare=".15">
+                            <div class="PicaLogo">
+                                <img class="VectorModo" src="JORLogo.svg">   
+                            </div>
+                        </a>
+                        </div>
+                </div>  
+        </div>
+    </div>
+</div>
+
+<!--Footer-->    
+<footer id="sticky-footer" class="py-4 bg-dark text-white">
+    <div class="footer-links text-center">
+        <a class="FooterType" href="index.html">Home</a> | <a class="FooterType" href="about.html">About</a> | <a class="FooterType" href="projects.html">Projects</a> | <a class="FooterType" href="contact.html">Contact</a></p>
+    <div class="container text-center"></div>
+        <small>Web design & development &copy; Jason Rodriguez, 2020</small>
+    </div>
+</footer>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+<script  src="sidebarNavigation.js"></script>
+<script src="vanilla-tilt.min.js"></script>
+</body>
+</html>
