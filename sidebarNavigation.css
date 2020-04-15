@@ -151,7 +151,7 @@
   top: 49%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index:210;
+  z-index:110;
   margin-bottom: 0px;
   margin:0 auto;
   text-align: center;
@@ -739,7 +739,7 @@ p{
   .banner .HomeHeader{
     font-size: 93px;
     padding-top: 110px;
-    z-index: 210px;
+    z-index: 110px;
     padding-top: 110px;
     width: fit-content;
   }
