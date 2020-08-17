@@ -204,13 +204,17 @@
   border-color: #00bae5;
 }
 
+.BrandStatement .MyResume:focus{
+  outline: none;
+}
+
 .SofiaContainer{
   max-width: 50em;
   margin-top:90px;
 }
 
 .Header{
-  font-weight: 400;
+  font-weight: 300;
   font-family: 'Open Sans', sans-serif;
   font-size: 34px;
   letter-spacing: 1.25px;
@@ -385,8 +389,9 @@ p{
   margin-left: 32px;
   margin-top: 27px;
   font-size: 13px;
-  font-weight: 100;
-  letter-spacing: 1.25px;
+  letter-spacing: 1.5px;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 400;
 }
   
 .fixed-top{
@@ -636,7 +641,7 @@ p{
   text-align: center;
   color: white;
   font-size: 22px;
-  font-weight: 400;
+  font-weight: 300;
   margin-top: 20px;
   margin-bottom: 120px;
 }
@@ -787,9 +792,9 @@ p{
   }
 
   .navbar-brand{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Orbitron', sans-serif;
   font-weight: 400;
-  letter-spacing: .5px;
+  letter-spacing: 1.5px;
   line-height:21px;
   margin-top: -10px;
   margin-left:0px !important;
@@ -827,13 +832,13 @@ p{
   }
 
   .uxui{
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 100;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
     color:white;
     margin-left: 17px;
     margin-bottom: 0px;
     font-size: 13px;
-    letter-spacing: .75px;
+    letter-spacing: 1.5px;
   }
 
   #logo{
@@ -932,6 +937,18 @@ p{
     letter-spacing: .9px;
   }
 
+  .BalfourImg{
+    text-align: center;
+    height: 200px ;
+    margin-top: 10px;
+  }
+
+  .AnaxosImg{
+    text-align: center;
+    height: 200px ;
+    margin-top: 10px;
+  }
+
   .AnaxosBold{
     font-weight: bold;
     margin-top: 90px;
@@ -979,9 +996,9 @@ p{
   }
 
   .navbar-brand{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Orbitron', sans-serif;
     font-weight: 400;
-    letter-spacing: .5px;
+    letter-spacing: 1.5px;
     line-height: 21px;
     margin-top: -10px;
     margin-left: 5px;
@@ -989,7 +1006,9 @@ p{
 
   .uxui{
     margin-left:17px;
-    font-weight: 200;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1.5;
   }
 
   #logo{
@@ -1048,7 +1067,7 @@ p{
   }
 
   .BrainSkillsMobile{
-    height: 572px;
+    height: 472px;
     margin-top: 60px;
     text-align: center;
   }
@@ -1431,6 +1450,7 @@ a:link{
 
 .Header{
   text-align: center;
+  font-weight: 300;
 }
 
 .Brains{
@@ -1586,6 +1606,17 @@ a:link{
 }
 
 @media (max-width: 990px) {
+  .BalfourImg{
+    height: 230px;
+    margin: 5px;
+  }
+
+  .AnaxosImg{
+    height: 144px;
+    margin: 5px;
+    text-align: center;
+  }
+
   .navbar-header {
     float: none;
   }
