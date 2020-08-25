@@ -26,4 +26,105 @@
 
 body {
     margin: 0;
-  }
+}
+
+.ProjectsContainer{
+    max-width: 50em;
+    margin-top:90px;
+}
+
+.ProjectsText{
+    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    letter-spacing: 2.25px;
+    line-height: 32px;
+    color: white;
+    text-align: left;
+    margin-bottom: 100px;
+}
+
+.CreativeSquare{
+    border: 10px solid #cf1481;
+    border-width: 2px;
+    height: 175px;
+    border-radius: 4px;
+}
+
+.TechnicalSquare{
+    border: 10px solid #00bae5;
+    border-width: 2px;
+    height: 175px;
+    border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+    .TechnicalSquare{
+        height:229px
+    }
+    .CreativeSquare{
+        height:229px
+    }
+}
+
+.Award{
+    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    letter-spacing: 2.25px;
+    line-height: 32px;
+    color: white;
+    text-align: left;
+    margin-bottom: 100px;
+    text-decoration: underline !important;
+}
+
+.Award:hover{
+    color:#cf1481 !important;
+    transition: .4s;
+}
+
+.Award:visited{
+    color: white;
+}
+
+.TechLink{
+    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    letter-spacing: 2.25px;
+    line-height: 32px;
+    color: white;
+    text-align: left;
+    margin-bottom: 100px;
+    text-decoration: underline !important;
+}
+
+.TechLink:hover{
+    color:#00bae5 !important;
+    transition: .4s;
+}
+
+.TechLink:visited{
+    color: white;
+}
+
+@media (max-width: 991px) {
+    .ProjectsText{
+        margin-top: 20px;
+    }
+
+    .Award{
+        margin-top: 20px;
+    }
+}
+
+.CreativeHighlight{
+    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    letter-spacing: 2.25px;
+    line-height: 32px;
+    color: #cf1481;
+    text-align: left;
+}
